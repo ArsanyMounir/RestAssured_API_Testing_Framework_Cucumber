@@ -28,11 +28,10 @@ A robust, scalable API Test Automation Framework built using Java, RestAssured, 
 src
 ├── test
 │   ├── java
-│   │   ├── stepDefinitions/       # Cucumber Step Definitions
+│   │   ├── stepDefinition/        # Cucumber Step Definitions
 │   │   ├── resources/             # API Resource Endpoints as Enum
-│   │   ├── utils/                 # Request/Response Spec & Config Utils
-│   │   ├── pojo/                  # POJO Classes for Payload Mapping
-│   │   └── hooks/                 # Cucumber Hooks for Setup/Teardown
+│   │   ├── cucumber/Options/       # TestRunner
+│   │   
 │   └── resources
 │       ├── features/              # Cucumber Feature Files
 │       └── global.properties      # Global Test Configuration
